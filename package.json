@@ -1,0 +1,26 @@
+{
+  "name": "pcat",
+  "version": "1.0.0",
+  "description": "Photo application",
+  "main": "app.js",
+  "scripts": {
+     "start": "node app.js",
+     "start-dev": "nodemon app.js"
+  },
+  "keywords": [
+    "photos"
+  ],
+  "author": "Ahsen Türksoy",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "prettier": "2.5.1"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "express-fileupload": "^1.2.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.1.4"
+  }
+}
